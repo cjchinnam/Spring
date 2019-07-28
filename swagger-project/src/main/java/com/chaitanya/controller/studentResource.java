@@ -18,7 +18,7 @@ public class studentResource {
 	@GetMapping
 	public List<student> getStudents(){
 		return Arrays.asList(
-				new student("hari","jagan"),
+				new student("chaitanya","jagan"),
 				new student("sai","siva")
 				);
 		
