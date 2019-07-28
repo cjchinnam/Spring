@@ -1,4 +1,4 @@
-package com.jagan;
+package com.chaitanya;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @EnableAutoConfiguration
-@ComponentScan({"com.jagan./*","com.jagan.controller"})
+@ComponentScan({"com.chaitanya./*","com.chaitanya.controller"})
 public class SwaggerApplication {
 
 	public static void main(String[] args) {
